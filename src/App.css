@@ -21,7 +21,7 @@
 .App-social {
   background-color: #000000;
   min-height: 10vh;
-  font-size: calc(12px + 2vmin);
+  font-size: 10vh;
   color: white;
 }
 
