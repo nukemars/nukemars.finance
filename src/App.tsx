@@ -1,10 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
+import telegramLogo from './telegram.svg';
+import twitterLogo from './twitter.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <header className="App-social">
+        <a
+            className="App-link"
+            href="https://t.me/nukemarsfinance"
+            target="_blank"
+            rel="noopener noreferrer">
+          <img src={telegramLogo} className="Social-logo" alt="Telegram" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+            className="App-link"
+            href="https://twitter.com/NukeMars_crypto"
+            target="_blank"
+            rel="noopener noreferrer">
+          <img src={twitterLogo} className="Social-logo" alt="Twitter" />
+        </a>
+      </header>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

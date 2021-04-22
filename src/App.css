@@ -7,15 +7,27 @@
   pointer-events: none;
 }
 
+.Social-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 10s linear;
   }
 }
 
+.App-social {
+  background-color: #000000;
+  min-height: 10vh;
+  font-size: calc(12px + 2vmin);
+  color: white;
+}
+
 .App-header {
   background-color: #000000;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
