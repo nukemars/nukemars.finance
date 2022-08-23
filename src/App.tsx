@@ -36,7 +36,7 @@ function App() {
         &nbsp;&nbsp;&nbsp;
         <a
             className="App-link"
-            href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=BNB&outputCurrency=0x789ca7305cf04fb1ba26c28028cd4676e5f5f5d7"
+            href="https://pancakeswap.finance/swap?chainId=56&outputCurrency=0x789cA7305Cf04fB1bA26C28028cd4676E5F5f5D7"
             target="_blank"
             rel="noopener noreferrer">
           <img src={pancakeswapLogo} className="Social-logo" alt="PancakeSwap" />
@@ -49,7 +49,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=BNB&outputCurrency=0x789ca7305cf04fb1ba26c28028cd4676e5f5f5d7"
+          href="https://pancakeswap.finance/swap?chainId=56&outputCurrency=0x789cA7305Cf04fB1bA26C28028cd4676E5F5f5D7"
           target="_blank"
           rel="noopener noreferrer"
         >
